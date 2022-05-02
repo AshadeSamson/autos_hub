@@ -194,6 +194,10 @@ header.head{
     border-bottom: solid 3px #FF8811;
   }
 
+  .linkscontainer li a:hover{
+    transform: none;
+  }
+
   /* Section */
   .landing .welcomebox{
     width: 85%;
