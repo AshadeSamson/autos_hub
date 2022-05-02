@@ -1,0 +1,16 @@
+// COLORS PALETTE
+
+Orange yellow: #F4D06F
+Dark Orange: #FF8811
+Blue green: #9DD9D2
+Floral White: #FFF8F0
+Space Cadet: #392F5A
+
+// FONTS
+
+font-family: 'Lora', serif;
+font-family: 'Noto Sans', sans-serif;
+
+//ICONS
+
+https://www.iconfinder.com/search?q=social%20media&price=free&license=gte__1
