@@ -20,7 +20,7 @@
 /* Container */
 .container{
   margin: auto auto;
-  width: 95%;
+  overflow-x: hidden;
 }
 
 /* header */
@@ -31,10 +31,14 @@ header.head{
   
 .headcontainer{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: #FF8811;
   border-bottom: solid;
   border-color: var(--cadet);
+  padding: 5px 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
 
 .logo{
@@ -58,7 +62,7 @@ header.head{
 .nav .linkscontainer{
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .linkscontainer li a{
@@ -81,9 +85,9 @@ header.head{
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
-  height: 100vh;
+  height: 1000px;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 300px;
 }
 
 .landing .welcomebox{
@@ -167,11 +171,7 @@ header.head{
 
 
 @media (max-width: 760px){
-  /* general */
-  .container{
-    width: 100%;
-  }
-
+ 
   /* header */
   
   .nav .linkscontainer{
